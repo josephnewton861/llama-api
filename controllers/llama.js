@@ -5,11 +5,12 @@ exports.getLlamaData = async (req, res, next) => {
     fetchLlamaData(input)
         .then(output => {
             console.log(output)
+            res.send(output)
             //res.status(200).send(output);
         })
         .catch(err => {
             console.log(err)
-            res.status(500).send(err)
+            res.send(err)
     });
 };
 

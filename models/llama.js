@@ -25,7 +25,6 @@ exports.fetchLlamaData = async (input) => {
     }
     const output = await replicate.run("a16z-infra/llama-2-7b-chat:d24902e3fa9b698cc208b5e63136c4e26e828659a9f09827ca6ec5bb83014381", {...options})
     const formattedOutput = formatResponse(output);
-    console.log(formattedOutput)
     return formattedOutput;
 };
 

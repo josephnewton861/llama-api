@@ -16,13 +16,9 @@
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
-    "heroku": "^8.4.1",
     "node-fetch": "^2.6.1",
-    "plain-text-data-to-json": "^2.0.0",
-    "replicate": "^0.16.1",
-    "serve": "^14.2.1"
+    "replicate": "^0.16.1"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/josephnewton861/llama-api.git"

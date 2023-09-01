@@ -17,8 +17,5 @@
     "node-fetch": "^2.6.1",
     "plain-text-data-to-json": "^2.0.0",
     "replicate": "^0.16.1"
-  },
-  "devDependencies": {
-    "nodemon": "^3.0.1"
   }
 }

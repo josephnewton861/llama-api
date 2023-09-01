@@ -1,6 +1,9 @@
 const fetch = require('node-fetch')
-
+// const express = require('express')
+// const app = express()
 const Replicate = require('replicate');
+// const cors = require('cors');
+// app.use(cors)
 
 require('dotenv').config()
 

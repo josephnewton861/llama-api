@@ -3,7 +3,7 @@ const {
     getLlamaData
   } = require("../controllers/llama");
 
-llamaRouter.route("/").get(getLlamaData);
+llamaRouter.route("/").post(getLlamaData);
 
 module.exports = llamaRouter;
 

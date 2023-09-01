@@ -1,7 +1,7 @@
 const { fetchLlamaData } = require("../models/llama");
 
 exports.getLlamaData = async (req, res, next) => {
-    const input = req.body
+    const input = req.body.input || ''
     fetchLlamaData(input)
         .then(output => {
             console.log(output)

@@ -34,5 +34,3 @@ const formatResponse = (output) => {
     }
     return formattedStr;
 }
-
-this.fetchLlamaData();

@@ -5,7 +5,9 @@ const cors = require('cors');
 app.use(cors)
 const apiRouter = require("./routes/api");
 
-app.use(express.json());
+console.log('hereee')
+
+// app.use(express.json());
 
 app.get('/', (req, res) => res.send('Testing'))
 

@@ -1,14 +1,13 @@
 {
   "name": "express-app",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "engines": {
     "start": "node app.js",
     "node": "12.x"
   },
   "scripts": {
-    "Start": "node app.js"
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
@@ -20,6 +19,17 @@
     "heroku": "^8.4.1",
     "node-fetch": "^2.6.1",
     "plain-text-data-to-json": "^2.0.0",
-    "replicate": "^0.16.1"
-  }
+    "replicate": "^0.16.1",
+    "serve": "^14.2.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josephnewton861/llama-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/josephnewton861/llama-api/issues"
+  },
+  "homepage": "https://github.com/josephnewton861/llama-api#readme",
+  "description": ""
 }

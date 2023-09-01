@@ -2,10 +2,6 @@
   "name": "express-app",
   "version": "1.0.0",
   "main": "app.js",
-  "engines": {
-    "start": "node app.js",
-    "node": "12.x"
-  },
   "scripts": {
     "start": "node app.js"
   },
